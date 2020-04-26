@@ -1,11 +1,8 @@
 /*CSS DOCUMENT*/
 
-body  {
-  margin: 1em;
-}
-
 h1 {
   font-family: sans-serif;
   font-size: 3em;
   color: #3e66ff;
+  margin: 1em;
 }
