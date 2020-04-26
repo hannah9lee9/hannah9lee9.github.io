@@ -1,5 +1,9 @@
 /*CSS DOCUMENT*/
 
+body  {
+  margin: 1em;
+}
+
 h1 {
   font-family: sans-serif;
   font-size: 3em;
