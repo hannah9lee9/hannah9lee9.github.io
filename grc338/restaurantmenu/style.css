@@ -51,3 +51,7 @@ p {
   text-align: left;
   margin-left: 6em;
 }
+
+.italic {
+  font-style: italic;
+}
