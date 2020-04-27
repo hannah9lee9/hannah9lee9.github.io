@@ -28,7 +28,7 @@ h3 {
   text-transform: uppercase;
   color: #1938b3;
   text-align: center;
-  margin: 1em 0em 0.5em 0em;
+  margin: 2em 0em 0.5em 0em;
   letter-spacing: 5px;
 }
 
@@ -49,7 +49,7 @@ p {
 }
 
 .left {
-  width: 800px;
+  width: 700px;
   text-align: left;
   margin-left: 6em;
 }
