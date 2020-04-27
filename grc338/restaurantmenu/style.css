@@ -48,4 +48,5 @@ p {
 .left {
   width: 600px;
   text-align: left;
+  margin-left: 5em;
 }
