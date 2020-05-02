@@ -1,0 +1,77 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/odp7uac.css");
+
+div.container {
+    text-align: center; 
+}
+
+h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 50%;
+}
+
+h2 {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin: 0em 0em 2em 0em;
+}
+
+img {
+    width: 50%;
+}
+
+p {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.25em;
+    display: inline-block;
+    width: 60%;
+    margin: 2em 0em 0em 0em;
+}
+
+h3 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.25em;
+    margin: 3em 0em 0em 0em;
+    text-transform: uppercase;
+}
+ul {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+
+ol {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+}
+
+h6 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 0.8em;
+}
