@@ -18,7 +18,6 @@ h2 {
   font-size: 3em;
   color: #1938b3;
   text-align: center;
-  margin: -1em 0em 0em 0em;
 }
 
 h3 {
@@ -29,7 +28,7 @@ h3 {
   color: #1938b3;
   text-align: center;
   margin: 2em 0em 0.5em 0em;
-  letter-spacing: 5px;
+  letter-spacing: 0.25em;
 }
 
 h4 {
