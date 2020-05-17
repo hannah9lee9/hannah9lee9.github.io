@@ -1,0 +1,111 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/odp7uac.css");
+
+body, ul, h1, h2, h3, p, h4 {
+    margin: 0;
+}
+
+div.container {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding-top: 0.5em;
+    display: block;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 1em;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a:hover{
+    color: #d3aa00;
+    background:none;
+}
+
+h1 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    display: inline-block;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+h2 {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding-top: 1.25em;
+}
+
+h3, p {
+    font-family: montserrat, sans-serif;
+    text-align: left;
+    width: 85%;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 0.75em;
+    font-weight: 600;
+    font-style: italic;
+    color: #d3aa00;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-top: 1.5em;
+}
+    
+p {
+    font-size: 0.65em;
+    font-weight: 500;
+    padding-top: 0.7em;
+}
+
+h4 {
+    font-family: montserrat, sans-serif;
+    font-size: 0.65em;
+    font-weight: 600;
+    text-align: left;
+    width: 85%;
+    display: inline-block;
+    padding-top: 0.5em;
+}
+
+p.italic {
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 1.5em;
+    letter-spacing: 0.15em;
+}
+
+h2.location {
+    padding-bottom: 1em;
+}
+
+h3.location {
+    padding-top: 0;
+    text-align: center;
+}
+
+p.location {
+    text-align: center;
+}
