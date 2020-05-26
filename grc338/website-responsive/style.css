@@ -1,0 +1,200 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/odp7uac.css");
+body, ul, h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+div.container {
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	padding-top: 1em;
+	display: block;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 0.65em;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a:hover, .clicked {
+	color: #d3aa00;
+	background: none;
+}
+
+h2.yellow {
+	color: #d3aa00;
+    text-align: left;
+}
+
+h1 {
+	font-size: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 1.5em;
+	padding-top: 1.25em;
+    text-align: center;
+}
+
+h2, h3, h4, p {
+	font-family: montserrat, sans-serif;
+	width: 85%;
+	display: inline-block;
+}
+
+h3, h4, p {
+    text-align: left;
+    font-size: 1em;
+}
+
+h3 {
+	font-weight: 600;
+	font-style: italic;
+	color: #d3aa00;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	padding-top: 1.5em;
+}
+
+p {
+	font-weight: 500;
+	padding-top: 0.7em;
+}
+
+h4 {
+	font-weight: 600;
+	padding-top: 0.5em;
+}
+
+p.italic {
+	font-weight: 300;
+	font-style: italic;
+	padding-bottom: 1.75em;
+	letter-spacing: 0.15em;
+}
+
+h2.location {
+	padding-bottom: 1em;
+    text-align: center;
+}
+
+h3.location {
+	padding-top: 0;
+	text-align: center;
+}
+
+p.location {
+	text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+    h1 {
+        width: 70%;
+        display: inline-block;
+    }
+    
+    nav ul li {
+        margin-left: 2em;
+    }
+    
+    ul {
+        padding-top: 0.5em;
+    }
+    
+    img {
+        width: 80%;
+        display: inline-block;
+        padding-top: 2em;
+    }
+    
+    
+    h2, h3, h4, p {
+        width: 75%;
+    }
+    
+    h2.yellow {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 50em) {
+    h1 {
+        width: 55%;
+    }
+    
+    img {
+        width: 60%;
+    }
+    
+    img.block {
+        width: 90%;
+    }
+    
+    h2 {
+        padding-top: 2em;
+    }
+    
+    h2, h3, h4, p {
+        width: 85%;
+    }
+    
+    p.homepage {
+        width: 50%;
+    }
+    
+    h3 {
+        letter-spacing: 0.1em;
+        text-align: left;
+        max-width: 37em;
+        
+    }
+    
+    div.block {
+        width: 20em;
+    }
+    
+    div.inline {
+        float: left;
+    }
+    
+    div.container .center {
+        max-width: 60em;
+        margin: auto;
+    }
+    
+    div.container .twocolumn {
+        max-width: 40em;
+        margin: auto;
+    }
+    
+    h3.location {
+        font-size: 1.5em;
+    }
+    
+    p.location {
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+}
