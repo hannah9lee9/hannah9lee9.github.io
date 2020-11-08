@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANNAH GRACE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d31e88082.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <!--The <header> contains all of my navigation-->
+    <header>
+            <h1><a href="index.html"><img class="logo" src="images/hannahgracelogo.svg" alt="Hannah Grace Logo" width="200px"></a></h1> 
+        <nav>
+            <ul class="menu"> 
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html" class="button">Contact</a></li>
+        </ul>
+        </nav>
+             <a onclick="openNav()" class="mobile_menu button" href="#">Menu</a>
+
+             <div id="mobile_drop_menu" class="overlay">
+                <a class="close" onclick="closeNav()">&times;</a>
+                <div class="overlay_content">
+                   <a href="portfolio.html">Portfolio</a>
+                   <a href="about.html">About</a>
+                   <a href="contact.html" class="button">Contact</a>
+                </div>
+                <script type="text/javascript" src="mobile.js"></script> 
+            </div>
+                  
+    </header>
+
+<body>
+
+<!--Rest of page content-->
+
+<main class="container">  
+    <div class="col-5">
+        <img src="images/techpapermockup.jpg" alt="Happy 90th Birthday, Futura! Article Redesign">
+        <div class="image_overlay">
+            <div class="text">Futura Tech Paper</div>
+        </div>
+    </div>
+    <div class="col-5">
+        <img src="images/adelphoitypeface.jpg" alt="Adelphoi Typeface">
+    </div>
+    <div class="col-5">
+        <img src="images/magnolia.jpg" alt="Magnolia Coffee Logo">
+    </div>
+    <div class="col-5">
+        <img src="images/crybaby.jpg" alt="Illustrations">
+    </div>
+
+</main>
+
+</body>
+</html>
