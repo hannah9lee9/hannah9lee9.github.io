@@ -1,0 +1,254 @@
+@import url("https://use.typekit.net/odp7uac.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+} body {
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, .button {
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} h1:nth-child(1) {
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px 8%;
+} header nav li {
+    text-align: right;
+    display: inline-block;
+    margin: 0;
+    margin: 20px 40px 20px 0px;
+} li:nth-child(3) {
+    margin-right: 0;
+} 
+
+.logo {
+    cursor: pointer;
+} .menu {
+    text-decoration: none;
+    list-style: none;
+} .menu li {
+    display: inline-block;
+    padding: 0;
+} .menu li a {
+    transition: all 0.3s ease 0s;
+} .menu li a:hover {
+    color: rgb(200, 200, 200);
+} .mobile_menu {
+    display: none;
+} .button {
+    background-color:transparent;
+	border-radius: 4px;
+	border: 1.5px solid #ee3d95;
+	color:#ee3d95;
+    padding: 8px 15px;
+    transition: all 0.3s ease 0s;
+	cursor: pointer;
+} .button:hover {
+    background-color: transparent;
+    border: 1.5px solid rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+} 
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay_content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    font-size: 0.9em;
+    display: block;
+    transition: all 0.3s ease 0s;
+} 
+
+.overlay a:hover, .overlay a:focus {
+    color: rgb(200, 200, 200);
+}
+
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.overlay .button {
+    padding: 6px 10px;
+    margin-top: 15px;
+}
+
+/* This is styling for an image hover on a different page. */
+.image_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
+    cursor: pointer;
+} .col-5:hover .image_overlay {
+    opacity: 1;
+} 
+
+/* General styling begins again. */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+    gap: 6em 3em;
+    position: relative;
+    margin: 0 auto 0 auto;
+    max-width: 1200px;
+    margin: 0px 8%;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+} .container img {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+} .col-3 {
+    grid-column: span 3;
+} .col-4 {
+    grid-column: span 4;
+} .col-5 {
+    grid-column: span 5;
+} .col-6 {
+    grid-column: span 6;
+} .col-7 {
+    grid-column: span 7;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 5%;
+} h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+} h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 0.25em;
+} h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+} p {
+    font-size: 1em;
+    margin-bottom: 1.25em;
+}
+
+footer {
+    text-align: right;
+    max-width: 1200px;
+    margin: 5em 8% 4em 8%;
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    } .mobile_menu {
+        display: inherit;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3em 0;
+    }
+
+    .welcome-text{
+        order: 2;
+    } .self-portrait {
+        order: 1;
+    } .bangin {
+        order: 3;
+        max-width: 200px;
+        margin: 1em auto 0 auto;
+    } .beauty {
+        order: 4;
+    } .coachella {
+        order: 5;
+        max-width: 250px;
+        margin: 0 auto;
+    } .passion {
+        order: 6;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    header {
+        margin: 25px 8%;
+    } .logo {
+        max-width: 100px;
+    } .overlay a {
+        padding: 10px;
+        font-size: 10px;
+    } .overlay .close a {
+        font-size: 1.5em;
+        font-weight: 300;
+    } .overlay .button {
+        padding: 6px 10px;
+        margin-top: 10px;
+    } a.close {
+        padding: 0;
+    }
+
+    a.button {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+    .bangin, .coachella {
+        max-width: 150px;
+    }
+
+    h1, h2 {
+        font-size: 15px;
+    } h3, p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    footer {
+        margin: 2em 8%;
+    }
+}
