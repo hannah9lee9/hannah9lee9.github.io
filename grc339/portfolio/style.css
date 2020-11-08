@@ -153,6 +153,16 @@ header {
     grid-column: span 7;
 }
 
+.bangin, .coachella {
+    max-width: 350px;
+    margin: 0 auto;
+} .beauty {
+    max-width: 400px;
+} .passion {
+    max-width: 400px;
+    margin: auto;
+} 
+
 h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 5%;
@@ -170,6 +180,7 @@ h1, h2, h3 {
     margin-bottom: 0.5em;
 } p {
     font-size: 1em;
+    line-height: 1.5em;
     margin-bottom: 1.25em;
 }
 
