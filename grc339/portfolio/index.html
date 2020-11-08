@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANNAH GRACE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d31e88082.js" crossorigin="anonymous"></script>
+</head>
 
+<body>
+    
+    <!--The <header> contains all of my navigation-->
+    <header>
+            <h1><a href="index.html"><img class="logo" src="images/hannahgracelogo.svg" alt="Hannah Grace Logo" width="200px"></a></h1> 
+        <nav>
+            <ul class="menu"> 
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html" class="button">Contact</a></li>
+        </ul>
+        </nav>
+             <a onclick="openNav()" class="mobile_menu button" href="#">Menu</a>
+
+             <div id="mobile_drop_menu" class="overlay">
+                <a class="close" onclick="closeNav()">&times;</a>
+                <div class="overlay_content">
+                   <a href="portfolio.html">Portfolio</a>
+                   <a href="about.html">About</a>
+                   <a href="contact.html" class="button">Contact</a>
+                </div>
+                <script type="text/javascript" src="mobile.js"></script> 
+            </div>
+                  
+    </header>
+
+    <!--This is the start of my page content.-->
+    <main class="container">
+        
+        <div class="col-4 welcome-text">
+            <h1>You look pretty cool</h1>
+            <p>Have we met before? In case we have not, my name is Hannah and I am a freelance graphic designer.</p>
+            <a href="portfolio.html" class="button">View My Portfolio</a>
+        </div>
+        <div class="col-6 self-portrait">
+            <img src="images/selfportrait.jpg" alt="Self Portrait Illustration"> 
+        </div>
+   
+        <div class="col-5 bangin">
+            <img class="homepage-img" src="images/banginbangin.png" alt="Bangin' Bangin' Illustration">
+        </div>
+        <div class="col-5 beauty">
+            <h2>Lover of beautiful things</h2>
+            <h3>It's quite an intense affair</h3>
+            <p>Throughout my life, I have been fascinated with beautiful things— the obvious beauty found in physical things and the silent beauty of more obscure thoughts and feelings. I often my describe my eyes as "not being able to turn off" and this is espcially true for the pursuit of beautiful things. I unconsciousy and consciously seek to find visual harmony in everything. My love for design draws from this internal compass.</p>
+        </div>
+    
+        <div class="col-5 passion">
+            <h2>Passion-oriented creator</h2>
+            <h3>Design with a purpose</h3>
+            <p>When I reflect on qualities central to myself, both ideal and actualized, my thoughts immediately latch onto passion. Passion inspires and translates my love for beauty to tangible work. It fuels every decision and continuously pushes me to create the beauty I observe around me.</p>
+        </div>
+        <div class="col-5 coachella">
+            <img class="homepage-img"src="images/coachella.png" alt="Coachella Illustration">
+       
+    </div>
+
+    </main>
+
+<footer>
+    <a href="https://www.linkedin.com/in/hannahgracelee"><i class="fab fa-linkedin-in"></i></a>
+</footer>
+
+</body>
+    
